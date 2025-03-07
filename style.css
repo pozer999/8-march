@@ -1,0 +1,15 @@
+@keyframes rotating {
+        from{
+            -webkit-transform: rotate(0deg);
+            opacity: 0;
+        }
+        to{
+            -webkit-transform: rotate(360deg);
+            opacity: 1;
+        }
+    }
+    
+    #flow {
+        animation: rotating 2s linear 2s;
+        transform: scale(0.3);
+    }
